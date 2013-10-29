@@ -3,7 +3,7 @@
 
 #define MyAppName "ProbablyEngine"
 #define MyAppVersion "1.0"
-#define MyAppBuild "17399"
+#define MyAppBuild "17538"
 #define MyAppPublisher "ProbablyEngine"
 #define MyAppURL "http://probablyengine.com/"
 #define MyAppExeName "ProbablyEngine.exe"
@@ -24,7 +24,7 @@ DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
 OutputBaseFilename=probablyengine-{#MyAppBuild}
-SetupIconFile=C:\Users\phelps\Desktop\ProbablyEngine\pe2.ico
+SetupIconFile=C:\Users\phelps\Documents\GitHub\ProbablyUnlockerWin\pe2.ico
 Compression=lzma
 SolidCompression=yes
 WizardSmallImageFile=pe_small.bmp
@@ -37,8 +37,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\phelps\Desktop\ProbablyEngine\ProbablyEngine.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\phelps\Desktop\ProbablyEngine\WinSparkle.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\phelps\Documents\GitHub\ProbablyUnlockerWin\ProbablyEngine.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\phelps\Documents\GitHub\ProbablyUnlockerWin\WinSparkle.dll"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

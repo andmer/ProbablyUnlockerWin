@@ -85,7 +85,8 @@
             this.statusText.Name = "statusText";
             this.statusText.Size = new System.Drawing.Size(216, 13);
             this.statusText.TabIndex = 4;
-            this.statusText.Text = "Supporting Game Version: 5.4.0 (17399) x86";
+            this.statusText.Text = "Supporting Game Version: 5.4.1 (17538) x86";
+            this.statusText.Click += new System.EventHandler(this.statusText_Click);
             // 
             // Form1
             // 

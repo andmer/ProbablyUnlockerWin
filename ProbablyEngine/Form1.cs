@@ -27,7 +27,7 @@ namespace ProbablyEngine
             public string Name { get; set; }
         }
 
-        int address = (int) 0x8B4589;
+        int address = (int) 0x8B1695;
         byte[] patch = {0xEB, 0x36};
 
         public Form1()
@@ -91,6 +91,11 @@ namespace ProbablyEngine
         {
             SelectedProcessID = dataSource[comboBox1.SelectedIndex].Id;
             button2.Enabled = true;
+        }
+
+        private void statusText_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
